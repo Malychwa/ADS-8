@@ -31,7 +31,7 @@ void Train::addCage(bool light) {
 int Train::getLength() {
   int len = 0;
   countOp = 0;
-  if (first){
+  if (first) {
     first->light = true;
     Cage* temp = first;
     while (true) {
